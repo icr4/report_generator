@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+perm_reportgenerator_report_user,reportgenerator.report,model_reportgenerator_report,base.group_user,1,0,0,0
+perm_reportgenerator_report_manager,reportgenerator.report,model_reportgenerator_report,group_report_generator_manager,1,1,1,1
+
+perm_reportgenerator_placeholder_user,reportgenerator.report.placeholder,model_reportgenerator_report_placeholder,base.group_user,1,0,0,0
+perm_reportgenerator_placeholder_manager,reportgenerator.report.placeholder,model_reportgenerator_report_placeholder,group_report_generator_manager,1,1,1,1
+
+perm_reportgenerator_preview_wizard,reportgenerator.preview.wizard,model_reportgenerator_preview_wizard,base.group_user,1,1,1,1
+perm_reportgenerator_output_wizard,reportgenerator.output.wizard,model_reportgenerator_output_wizard,base.group_user,1,1,1,1
+perm_reportgenerator_output_file,reportgenerator.output.file,model_reportgenerator_output_file,base.group_user,1,1,1,1
+
+perm_reportgenerator_placeholder_font,reportgenerator.report.placeholder.font,model_reportgenerator_report_placeholder_font,base.group_user,1,0,0,0
+perm_reportgenerator_placeholder_font,reportgenerator.report.placeholder.font,model_reportgenerator_report_placeholder_font,group_report_generator_manager,1,1,1,1
