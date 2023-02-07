@@ -1,6 +1,6 @@
 {
     'name': "Report Generator",
-    'summary': "Dynamic PDF Report Generator",
+    'summary': "PDF Report Generator",
     'description': "This module permits to generate custom PDF reports basing on a PDF template instead of using Qweb or wkhtmltopdf.",
     'author': "Alessandro Gessa, Bootando",
     'website': "http://www.bootando.com",
@@ -15,6 +15,7 @@
         'base',
         'mail'
     ],
+    'images': ['static/images/thumbnail.png'],
     'data': [
         'security/ir_module_category.xml',
         'security/res_groups.xml',
