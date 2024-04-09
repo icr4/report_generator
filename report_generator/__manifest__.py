@@ -8,7 +8,7 @@
     'version': '1.0',
     'application': False,
     'installable': True,
-    'price': 139.99,
+    'price': 0.00,
     'currency': 'EUR',
     'license': 'LGPL-3',
     'depends': [
